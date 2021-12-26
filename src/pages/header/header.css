@@ -1,0 +1,10 @@
+.header-wrapper {
+  /* display: flex;
+  flex-direction: column;
+  height: 5rem; */
+}
+.header-wrapper__header {
+  display: flex;
+  flex-direction: column;
+  height: 5rem;
+}
