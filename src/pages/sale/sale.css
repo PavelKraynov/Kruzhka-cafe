@@ -1,0 +1,36 @@
+
+
+.sale-wrapper{
+   display: flex;
+   background: rgb(255, 255, 255, 0.7);;
+  flex-direction: column;
+ /* width: 100%; */
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+    color: rgb(0, 0, 0);
+    width: 920px;
+  margin: auto;
+}
+.sale-wrapper-general__text{
+  display: flex;
+  font-size: 25px;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  width: 700px;
+  margin: auto;
+  height: 700px;
+padding : auto;
+margin-bottom: 2rem;
+ flex-wrap:nowrap
+}
+.sale-wrapper-general__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img__birthday{
+    width: 300px;
+     box-shadow: -20px 20px 40px 0px rgba(77, 98, 104, 0.73);
+}

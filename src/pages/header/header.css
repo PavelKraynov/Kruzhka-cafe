@@ -2,7 +2,7 @@
   width: 920px;
   margin: auto;
   background: #0f1515;
-  background: radial-gradient(to right, #0f1515, #120c53);
+  background: radial-gradient(to right, #000000, #6b2e2e);
 }
 .header-wrapper__header {
   display: flex;
