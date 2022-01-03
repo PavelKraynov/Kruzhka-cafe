@@ -14,8 +14,8 @@
   display: flex;
   font-size: 25px;
   flex-direction: column;
-  /* align-items: center; */
-  /* justify-content: center; */
+  align-items: center;
+  justify-content: center;
   width: 700px;
   margin: auto;
   height: 700px;
@@ -28,8 +28,8 @@
   display:flex;
   justify-content: center;
   margin: 3rem;
-  background-color: darkorange;
-  width: 400px;
+  /* background-color: darkorange; */
+  /* width: 400px; */
   height: 40px;
 }
 
