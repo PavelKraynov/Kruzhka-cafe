@@ -1,0 +1,23 @@
+
+.wrapper-adress-components {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  height: 550px
+}
+
+.adress__component {
+  display: flex;
+  flex-direction: column;
+width: 220px;
+margin: 1rem;
+}
+
+.adress__component-name {
+  font-size: 25px
+}

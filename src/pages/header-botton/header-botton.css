@@ -1,18 +1,18 @@
-.header-wrapper {
+
+.header-botton-wrapper {
+  /* display: flex; */
+  /* justify-content: center; */
   width: 920px;
   margin: auto;
   background: #0f1515;
   background: radial-gradient(to right, #0f1515, #120c53);
 }
-.header-wrapper__header {
+.header-botton-wrapper__header {
   display: flex;
   /* flex-direction: column; */
   height: 5rem;
   justify-content: space-around;
   align-items: center;
-}
-.header__link {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  font-size: 22px;
+  font-size: 15px;
+  color: white
 }
