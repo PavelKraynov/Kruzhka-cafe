@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../header/header";
-import HeaderBotton from "../header-botton/header-botton";
+import HeaderBotton from "../header-bottom/header-bottom";
 import saleSkin from "./sale.png";
 
 import "./sale.css";

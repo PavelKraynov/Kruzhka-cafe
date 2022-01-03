@@ -1,5 +1,5 @@
 
-.header-botton-wrapper {
+.header-bottom-wrapper {
   /* display: flex; */
   /* justify-content: center; */
   width: 920px;
@@ -7,7 +7,7 @@
   background: #0f1515;
   background: radial-gradient(to right, #0f1515, #120c53);
 }
-.header-botton-wrapper__header {
+.header-bottom-wrapper__header {
   display: flex;
   /* flex-direction: column; */
   height: 5rem;

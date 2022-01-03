@@ -1,12 +1,12 @@
 import React from "react";
 // import { Link } from "react-router-dom";
-import "./header-botton.css";
+import "./header-bottom.css";
 
-function HeaderBotton() {
+function HeaderBottom() {
 
   return (
-    <div className="header-botton-wrapper">
-      <header className="header-botton-wrapper__header header">
+    <div className="header-bottom-wrapper">
+      <header className="header-bottom-wrapper__header header">
         КРУЖКАПАБ ​ ИНФОРМАЦИЯ ПРЕДСТАВЛЕННАЯ НА САЙТЕ <br /> НЕ ЯВЛЯЕТСЯ
         ПУБЛИЧНОЙ ОФЕРТОЙ <br /> kruzhkamain@gmail.com
       </header>
@@ -14,4 +14,4 @@ function HeaderBotton() {
   );
 }
 
-export default HeaderBotton;
+export default HeaderBottom;

@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./pages/header/header";
-import HeaderBotton from "./pages/header-botton/header-botton";
+import HeaderBotton from "./pages/header-bottom/header-bottom";
 
 import "./App.css";
 function App() {
