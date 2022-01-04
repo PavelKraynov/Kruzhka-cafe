@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logo from './logo.png'
 import "./header.css";
 
@@ -8,12 +8,15 @@ function Header() {
   return (
     <div className="header-wrapper">
       <header className="header-wrapper__header header">
-        <img src={logo} alt="icon" width="80px" />
+        <a href="/Главная">
+          <img src={logo} alt="icon" width="80px" />
+        </a>
+
         {nameMenu.map((oneName) => {
           return (
-            <a href={oneName} className="header__link" key={oneName}>
+            <Link to={oneName} className="header__link" key={oneName}>
               {oneName}
-            </a>
+            </Link>
           );
         })}
       </header>
