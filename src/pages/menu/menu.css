@@ -26,17 +26,31 @@ margin-top: 100px;
 }
 
 .button__style {
+  display:flex;
+  align-items: center;
+  justify-content: center;
  background: rgb(251, 255, 248, 0);
- width: 200px;
+ width: 220px;
  height: 50px;
  margin: 1rem;
- color: darkblue;
+ color: rgb(255, 123, 0);
  border-radius: 20px;
-}
+ border-style: solid;
+ text-decoration: none;
+ border-width: 2px;
 
+}
+.link__style {
+ text-decoration: none;
+ color: rgb(0, 0, 0);
+}
+.link__style:hover{
+ text-decoration: none;
+ color: rgb(128, 66, 4);
+}
 .button__style:hover {
   transform: scale(1.1);
    box-shadow: -20px 20px 40px 0px rgba(77, 98, 104, 0.73);
-   color: rgb(130, 139, 0);
+   color: rgb(250, 147, 62);
    background: rgba(199, 158, 158, 0.5);
 }
