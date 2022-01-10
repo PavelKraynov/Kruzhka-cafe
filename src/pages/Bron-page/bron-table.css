@@ -10,7 +10,7 @@ display: flex;
 flex-direction: column;
 position: fixed;
 width: 50%;
-height: 90%;
+height: 97%;
 background: rgb(255, 255, 255);
  align-items: center;
 }
@@ -24,24 +24,69 @@ background: rgb(255, 255, 255);
 .Bron-table-wrapper__portal-form-input{
   display: flex;
   flex-direction: column;
+  margin-top:  10px;
 }
 
 .input__line  {
   display: flex;
-/* margin-bottom: 5px; */
   width: 300px;
-  height: 25px;
+  height: 20px;
+  margin-bottom: 2px;
+}
+.Bron-table-wrapper__nesessary-line {
+ color: rgb(253, 1, 1)
 }
 .input__line-comment {
     display: flex;
-/* margin-bottom: 5px; */
   width: 300px;
   height: 45px;
+  resize: none
+}
+.Bron-table-wrapper__buttons {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.buttons {
+.buttons__send {
   display: flex;
-  justify-content: space-between;
-margin-bottom: 10px;
-margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  height: 35px;
+  font-size: 20px;
+  width: 200px;
+  background: rgb(139, 247, 31);
+  border: none;
+  cursor: pointer;
+}
+.buttons__send:hover {
+  color: rgb(196, 66, 26);
+   transform: scale(1.1);
+}
+
+.buttons__cancel {
+display: flex;
+  justify-content: center;
+    align-items: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  background: rgb(235, 220, 220);
+}
+
+.buttons__cancel:hover {
+  color: rgb(255, 79, 25);
+   transform: scale(1.1);
+}
+
+.Bron-table-wrapper__nesessary-line {
+  font-size: 15px;
+color:rgb(114, 22, 22);
+margin-bottom: 20px;
 }
