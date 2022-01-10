@@ -1,9 +1,18 @@
-import React from "react";
-import Header from "./pages/header/header";
-import HeaderBotton from "./pages/header-bottom/header-bottom";
-
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import { createPortal } from "react-dom";
 import "./App.css";
+
+import HeaderBotton from "./pages/header-bottom/header-bottom";
+import Header from "./pages/header/header";
+import BronTable from "./pages/Bron-page/bron-table";
+
 function App() {
+  const [toggled, setToggled] = useState(false);
+  const onClick = () => {
+    setToggled(!toggled);
+  };
+  const portalElement = document.querySelector("#portal");
   return (
     <div className="App-wrapper">
       <div className="App-wrapper__general">
@@ -24,10 +33,29 @@ function App() {
             особой атмосферой, большим ассортиментом напитков, а также
             разнообразными и вкусными закусками.
           </div>
-        </div>
-          <div>
-            <HeaderBotton />
+          <div className="App-wrapper__links-forms">
+            <div onClick={onClick} className="App-wrapper__div-form">
+              <Link className="App-wrapper__link-style" to="">
+                Забронировать стол
+              </Link>
+            </div>
+            <div onClick={onClick} className="App-wrapper__div-form">
+              <Link className="App-wrapper__link-style" to="/Menu">
+                Посмотреть меню
+              </Link>
+            </div>
+            <div>
+              {toggled &&
+                createPortal(
+                  <BronTable onClosePortalWindowForm={()=>setToggled(false)} />,
+                  portalElement
+                )}
+            </div>
           </div>
+        </div>
+        <div>
+          <HeaderBotton />
+        </div>
       </div>
     </div>
   );

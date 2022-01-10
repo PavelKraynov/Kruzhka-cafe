@@ -28,3 +28,31 @@ padding : auto;
 margin-bottom: 2rem;
   /* height: 630px; */
 }
+
+.App-wrapper__links-forms{
+  display: flex;
+  margin-top: 2rem;
+justify-content:space-evenly;
+
+}
+.App-wrapper__div-form{
+background: white;
+width: 270px;
+border-radius: 2px;
+}
+
+.App-wrapper__link-style{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+width: 450px;
+}
+
+.App-wrapper__link-style:hover{
+  color: rgb(218, 55, 55);
+}
+
+.App-wrapper__portal-form{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
