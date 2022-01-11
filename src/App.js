@@ -15,7 +15,7 @@ function App() {
   const portalElement = document.querySelector("#portal");
   return (
     <div className="App-wrapper">
-      <div className="App-wrapper__general">
+      <div>
         <div>
           <Header />
         </div>
@@ -33,26 +33,24 @@ function App() {
             особой атмосферой, большим ассортиментом напитков, а также
             разнообразными и вкусными закусками.
           </div>
-          <div className="App-wrapper__links-forms">
-            <div onClick={onClick} className="App-wrapper__link-form">
-              <Link className="App-wrapper__link-style" to="">
-                Забронировать
-              </Link>
-            </div>
-            <div onClick={onClick} className="App-wrapper__link-form">
-              <Link className="App-wrapper__link-style" to="/Menu">
-                Меню
-              </Link>
-            </div>
-            <div>
-              {toggled &&
-                createPortal(
-                  <BronTable
-                    onClosePortalWindowForm={() => setToggled(false)}
-                  />,
-                  portalElement
-                )}
-            </div>
+        </div>
+        <div className="App-wrapper__links-forms">
+          <div onClick={onClick} className="App-wrapper__link-form">
+            <Link className="App-wrapper__link-style" to="">
+              Забронировать
+            </Link>
+          </div>
+          <div onClick={onClick} className="App-wrapper__link-form">
+            <Link className="App-wrapper__link-style" to="/Menu">
+              Меню
+            </Link>
+          </div>
+          <div>
+            {toggled &&
+              createPortal(
+                <BronTable onClosePortalWindowForm={() => setToggled(false)} />,
+                portalElement
+              )}
           </div>
         </div>
         <div>

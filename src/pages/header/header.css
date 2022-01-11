@@ -1,8 +1,7 @@
 .header-wrapper {
   width: 920px;
   margin: auto;
-  background: #0f1515;
-  background: radial-gradient(to right, #000000, #6b2e2e);
+  background: #000000;
 }
 .header-wrapper__header {
   display: flex;

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import logo from './logo.png'
+import logo from "./logo.png";
 import "./header.css";
 
 function Header() {
@@ -13,7 +13,7 @@ function Header() {
 
   return (
     <div className="header-wrapper">
-      <header className="header-wrapper__header header">
+      <header className="header-wrapper__header header ">
         <Link to="/General  ">
           <img src={logo} alt="icon" width="80px" />
         </Link>

@@ -4,13 +4,13 @@
    display: flex;
    background: rgb(255, 255, 255, 0.7);;
   flex-direction: column;
- /* width: 100%; */
   text-align: center;
   align-items: center;
   justify-content: center;
     color: rgb(0, 0, 0);
     width: 920px;
   margin: auto;
+  height: 750px;
 }
 .address-wrapper-general__text{
   display: flex;

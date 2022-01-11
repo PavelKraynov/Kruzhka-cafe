@@ -59,9 +59,12 @@ const BronTable = ({ onClosePortalWindowForm }) => {
         addPersonForm(name, time, telephone, numberOfPeople, mail, comments),
         onClosePortalWindowForm()
       );
-    } else {
-      setErrOfEmpty("Заполните обязательные поля *");
-    }
+    } if (name.length < 1) {
+      setErrOfEmpty('Введите имя')
+      }
+      if (telephone.length < 9) {
+        setErrOfEmpty("Некорректен номер телефона");
+      }
   };
 
   const minDate = new Date().toISOString().slice(0, 10);

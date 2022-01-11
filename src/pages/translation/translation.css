@@ -18,7 +18,7 @@
   justify-content: center;
   width: 700px;
   margin: auto;
-  height: 700px;
+  height: 500px;
   padding: auto;
   margin-bottom: 2rem;
   flex-wrap: nowrap;
@@ -36,5 +36,11 @@
 .href__style-link {
   margin: 3rem;
     text-decoration-color: darkmagenta;
-    color: rgb(49, 49, 38);
+    color: rgb(113, 73, 165);
+    font-size: 30px
+}
+
+.href__style-link:hover {
+    color: rgb(102, 14, 218);
+    font-size: 32px
 }

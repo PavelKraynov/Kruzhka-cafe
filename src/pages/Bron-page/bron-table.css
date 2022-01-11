@@ -1,18 +1,24 @@
 .Bron-table-wrapper__portal{
   display: flex;
+  position: fixed;
+  margin-top: -8px;
 width: 100%;
 height: 100%;
 justify-content: center;
+background: rgb(56, 54, 54, 0.8);
 }
-
+input{
+  border-width: 0px,0px,1px,0px;
+}
 .Bron-table-wrapper__portal-form {
 display: flex;
 flex-direction: column;
-position: fixed;
-width: 50%;
-height: 97%;
-background: rgb(255, 255, 255);
+width: 30%;
+height: 90%;
+justify-content: center;
+background: rgba(255, 254, 254, 0.945);
  align-items: center;
+ margin-top: 30px;
 }
 
 .Bron-table-wrapper__bron-text {
@@ -31,7 +37,7 @@ background: rgb(255, 255, 255);
   display: flex;
   width: 300px;
   height: 20px;
-  margin-bottom: 2px;
+  margin-bottom: 8px;
 }
 .Bron-table-wrapper__nesessary-line {
  color: rgb(253, 1, 1)
@@ -77,7 +83,7 @@ display: flex;
   width: 36px;
   height: 36px;
   cursor: pointer;
-  background: rgb(235, 220, 220);
+  background: rgb(236, 221, 221);
 }
 
 .buttons__cancel:hover {
