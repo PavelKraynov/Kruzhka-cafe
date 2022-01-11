@@ -34,20 +34,22 @@ function App() {
             разнообразными и вкусными закусками.
           </div>
           <div className="App-wrapper__links-forms">
-            <div onClick={onClick} className="App-wrapper__div-form">
+            <div onClick={onClick} className="App-wrapper__link-form">
               <Link className="App-wrapper__link-style" to="">
-                Забронировать стол
+                Забронировать
               </Link>
             </div>
-            <div onClick={onClick} className="App-wrapper__div-form">
+            <div onClick={onClick} className="App-wrapper__link-form">
               <Link className="App-wrapper__link-style" to="/Menu">
-                Посмотреть меню
+                Меню
               </Link>
             </div>
             <div>
               {toggled &&
                 createPortal(
-                  <BronTable onClosePortalWindowForm={()=>setToggled(false)} />,
+                  <BronTable
+                    onClosePortalWindowForm={() => setToggled(false)}
+                  />,
                   portalElement
                 )}
             </div>

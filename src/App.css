@@ -32,13 +32,18 @@ margin-bottom: 2rem;
 .App-wrapper__links-forms{
   display: flex;
   margin-top: 2rem;
+  height: 40px;
 justify-content:space-evenly;
 
 }
-.App-wrapper__div-form{
-background: white;
+.App-wrapper__link-form{
+background: rgb(140, 235, 97);
 width: 270px;
+height: 40px;
 border-radius: 2px;
+}
+.App-wrapper__link-form:hover{
+transform: scale(1.1);
 }
 
 .App-wrapper__link-style{

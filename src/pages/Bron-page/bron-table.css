@@ -90,3 +90,8 @@ display: flex;
 color:rgb(114, 22, 22);
 margin-bottom: 20px;
 }
+
+.span__error {
+color:rgb(255, 0, 0);
+font-size: 15px;
+}

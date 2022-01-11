@@ -23,6 +23,7 @@ function Translation() {
                 className="href__style-link"
                 href="https://matchtv.ru/live"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Расписание трансляций.
               </a>
