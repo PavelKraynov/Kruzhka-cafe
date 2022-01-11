@@ -99,7 +99,7 @@ const BronTable = ({ onClosePortalWindowForm }) => {
           <div className="Bron-table-wrapper__buttons buttons">
             <button className="buttons__send" type="button">
               отправить
-            </button>{" "}
+            </button>
             <button
               className="buttons__cancel"
               type="button"

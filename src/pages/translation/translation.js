@@ -19,7 +19,11 @@ function Translation() {
             Сеть КРУЖКАПАБ показывает спортивные матчи транслируемые,
             телеканалами МАТЧ и МАТЧ ПРЕМЬЕР.
             <div className="href__style-div">
-              <a className="href__style-link" href="https://matchtv.ru/live">
+              <a
+                className="href__style-link"
+                href="https://matchtv.ru/live"
+                target="_blank"
+              >
                 Расписание трансляций.
               </a>
             </div>
