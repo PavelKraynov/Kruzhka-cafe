@@ -48,10 +48,12 @@ margin-top: 90px;
 .link__style:hover{
  text-decoration: none;
  color: rgb(128, 66, 4);
+
 }
 .button__style:hover {
   transform: scale(1.1);
    box-shadow: -20px 20px 40px 0px rgba(77, 98, 104, 0.73);
    color: rgb(250, 147, 62);
    background: rgba(199, 158, 158, 0.5);
+   transition-duration: 0.2s
 }

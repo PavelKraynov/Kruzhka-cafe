@@ -6,9 +6,9 @@ import "./header.css";
 function Header() {
   const nameMenu =
     { General: "Главная",
-    Address : "Адрес",
-    Sale :"Скидки",
     Menu :"Меню",
+    Sale :"Скидки",
+    Address : "Адреса",
     Translation :"Трансляции"}
 
   return (
