@@ -70,7 +70,8 @@ background: rgba(255, 254, 254, 0.945);
 }
 .buttons__send:hover {
   color: rgb(196, 66, 26);
-   transform: scale(1.1);
+   transform: scale(1.05);
+   transition-duration: 0.05s
 }
 
 .buttons__cancel {
@@ -88,7 +89,8 @@ display: flex;
 
 .buttons__cancel:hover {
   color: rgb(255, 79, 25);
-   transform: scale(1.1);
+   transform: scale(1.05);
+   transition-duration: 0.05s
 }
 
 .Bron-table-wrapper__nesessary-line {
