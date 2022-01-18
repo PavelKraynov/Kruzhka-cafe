@@ -1,15 +1,17 @@
-import React from 'react'
+import React from "react";
 import { Link } from "react-router-dom";
 import logo from "./logo.png";
 import "./header.css";
 
+
 function Header() {
-  const nameMenu =
-    { General: "Главная",
-    Menu :"Меню",
-    Sale :"Скидки",
-    Address : "Адреса",
-    Translation :"Трансляции"}
+  const nameMenu = {
+    General: "Главная",
+    Menu: "Меню",
+    Sale: "Скидки",
+    Address: "Адреса",
+    Translation: "Трансляции",
+  };
 
   return (
     <div className="header-wrapper">

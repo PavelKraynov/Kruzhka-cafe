@@ -1,62 +1,54 @@
-
-
-.menu-wrapper{
-   display: flex;
-   background: rgb(255, 255, 255, 0.7);;
+.menu-wrapper {
+  display: flex;
+  background: rgb(255, 255, 255, 0.7);
   flex-direction: column;
   text-align: center;
   align-items: center;
-  /* justify-content: center; */
-    color: rgb(0, 0, 0);
-    width: 920px;
+  color: rgb(0, 0, 0);
+  width: 920px;
   margin: auto;
 }
-.menu-wrapper:hover{
-transition-duration: 1s
+.menu-wrapper:hover {
+  transition-duration: 1s;
 }
-.menu-wrapper-general__text{
+.menu-wrapper-general__text {
   display: flex;
   font-size: 20px;
   flex-direction: column;
   align-items: center;
-
-  margin-bottom:  5rem;
-  /* height: 700px; */
-
-padding : auto;
-margin-top: 90px;
- flex-wrap:nowrap
+  margin-bottom: 5rem;
+  padding: auto;
+  margin-top: 90px;
+  flex-wrap: nowrap;
 }
 
 .button__style {
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
- background: rgb(251, 255, 248, 0);
- width: 220px;
- height: 50px;
- margin: 1rem;
- color: rgb(255, 123, 0);
- border-radius: 20px;
- border-style: solid;
- text-decoration: none;
- border-width: 2px;
-
+  background: rgb(251, 255, 248, 0);
+  width: 220px;
+  height: 50px;
+  margin: 1rem;
+  color: rgb(255, 123, 0);
+  border-radius: 20px;
+  border-style: solid;
+  text-decoration: none;
+  border-width: 2px;
 }
 .link__style {
- text-decoration: none;
- color: rgb(0, 0, 0);
+  text-decoration: none;
+  color: rgb(0, 0, 0);
 }
-.link__style:hover{
- text-decoration: none;
- color: rgb(240, 126, 13);
-
+.link__style:hover {
+  text-decoration: none;
+  color: rgb(240, 126, 13);
 }
 .button__style:hover {
   transform: scale(1.06);
-   box-shadow: -20px 20px 40px 0px rgba(77, 98, 104, 0.73);
-   color: rgb(250, 147, 62);
-   background: rgba(238, 237, 237, 0.5);
-   transition-duration: 0.2s
-
+  box-shadow: -20px 20px 40px 0px rgba(77, 98, 104, 0.73);
+  color: rgb(250, 147, 62);
+  background: rgba(238, 237, 237, 0.5);
+  transition-duration: 0.2s;
+  transform: rotateX(2deg) rotateY(2deg) translateZ(7vw);
 }

@@ -6,6 +6,7 @@ import saleSkin from "./sale.png";
 import "./sale.css";
 
 function Sale() {
+
   return (
     <div className="sale-wrapper">
       <div className="sale-wrapper-general">
