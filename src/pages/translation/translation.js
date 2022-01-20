@@ -7,13 +7,11 @@ import "./translation.css";
 function Translation() {
   return (
     <div className="translation-wrapper">
-      <div className="translation-wrapper-general">
-        <div>
           <Header />
-        </div>
+
         <div className="translation-wrapper-general__text href">
           <div>
-            <h1>ТРАНСЛЯЦИИ</h1>
+            <h2>ТРАНСЛЯЦИИ</h2>
           </div>
           <div>
             Сеть КРУЖКАПАБ показывает спортивные матчи транслируемые,
@@ -30,13 +28,10 @@ function Translation() {
             </div>
             По любым вопросам вы можете обратиться в интересующий вас бар.
           </div>
-        </div>
+
       </div>
-      <div>
         <HeaderBotton />
-      </div>
-    </div>
-    // </div>
+ </div>
   );
 }
 

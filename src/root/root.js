@@ -7,7 +7,7 @@ import {
   Navigate,
 } from "react-router-dom";
 
-import App from '../App'
+import General from "../pages/General/general";
 import Address from "../pages/Address/address";
 import Sale from '../pages/sale/sale'
 import Menu from '../pages/menu/menu'
@@ -17,13 +17,12 @@ const Root = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/General" element={<App />} />
+        <Route path="/General" element={<General />} />
         <Route path="/Address" element={<Address />} />
         <Route path="/Sale" element={<Sale />} />
         <Route path="/Menu" element={<Menu />} />
         <Route path="/Translation" element={<Translation />} />
         <Route path="/" element={<Navigate to="General" />} />
-        {/* <Route path="/menuPdf" element={< MenuPdf />} /> */}
       </Routes>
     </Router>
   );

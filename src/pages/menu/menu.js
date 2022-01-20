@@ -11,10 +11,8 @@ import "./menu.css";
 function Sale() {
   return (
     <div className="menu-wrapper">
-      <div className="menu-wrapper-general">
-        <div>
           <Header />
-        </div>
+      <div className="menu-wrapper-general">
         <div className="menu-wrapper-general__text button">
           <h1>Меню</h1>
           <div className="button__style link">
@@ -34,9 +32,7 @@ function Sale() {
           </div>
         </div>
       </div>
-      <div>
         <HeaderBotton />
-      </div>
     </div>
   );
 }

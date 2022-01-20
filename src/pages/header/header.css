@@ -1,11 +1,10 @@
 .header-wrapper {
-  width: 920px;
-  margin: auto;
+  /* margin: auto; */
   background: #000000;
 }
 .header-wrapper__header {
+  width: 100vh;
   display: flex;
-  /* flex-direction: column; */
   height: 5rem;
   justify-content: space-around;
   align-items: center;

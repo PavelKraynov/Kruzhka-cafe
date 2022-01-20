@@ -166,7 +166,7 @@ const BronTable = ({ onClosePortalWindowForm }) => {
             <button
               className="buttons__cancel"
               type="button"
-              onClick={() => onClosePortalWindowForm()}
+              onClick={onClosePortalWindowForm}
             >
               ❌
             </button>

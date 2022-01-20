@@ -19,7 +19,6 @@ function Header() {
         <Link to="/General  ">
           <img src={logo} alt="icon" width="80px" />
         </Link>
-
         {Object.keys(nameMenu).map((oneName) => {
           return (
             <Link to={`/${oneName}`} className="header__link" key={oneName}>

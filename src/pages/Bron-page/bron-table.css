@@ -13,29 +13,32 @@ input{
 .Bron-table-wrapper__portal-form {
 display: flex;
 flex-direction: column;
-width: 30%;
+max-width: 40%;
 height: 90%;
 justify-content: center;
 background: rgba(255, 254, 254, 0.945);
  align-items: center;
- margin-top: 30px;
+ /* margin: 30px; */
 }
 
 .Bron-table-wrapper__bron-text {
   text-align: center;
   color: rgb(110, 102, 102);
+  margin: 3px;
 }
 
 
 .Bron-table-wrapper__portal-form-input{
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin-top:  10px;
+  margin: 3px;
 }
 
 .input__line  {
   display: flex;
-  width: 300px;
+  max-width: 300px;
   height: 20px;
   margin-bottom: 8px;
 }
@@ -63,7 +66,7 @@ background: rgba(255, 254, 254, 0.945);
   margin-top: 10px;
   height: 35px;
   font-size: 20px;
-  width: 200px;
+  max-width: 220px;
   background: rgb(139, 247, 31);
   border: none;
   cursor: pointer;

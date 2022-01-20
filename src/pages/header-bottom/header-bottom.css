@@ -1,15 +1,11 @@
 
 .header-bottom-wrapper {
-  /* display: flex; */
-  /* justify-content: center; */
-  width: 920px;
-  margin: auto;
+  width: 100vh;
   background: #0f1515;
   background: radial-gradient(to right, #0f1515, #120c53);
 }
 .header-bottom-wrapper__header {
   display: flex;
-  /* flex-direction: column; */
   height: 5rem;
   justify-content: space-around;
   align-items: center;
