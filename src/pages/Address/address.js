@@ -38,7 +38,6 @@ function Address() {
         <Header />
         <h1>АДРЕСА в МОСКВЕ</h1>
         <AddressComponent addressArray={addressArray} />
-        {/* <Map /> */}
         <HeaderBotton />
     </div>
   );
