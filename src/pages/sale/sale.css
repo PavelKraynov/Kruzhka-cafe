@@ -18,8 +18,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: auto;
-padding : auto;
+  /* margin: auto;
+padding : auto; */
 }
 .sale-wrapper-general__img {
   display: flex;
@@ -27,6 +27,6 @@ padding : auto;
   justify-content: center;
 }
 .img__birthday{
-   max-width: 300px;
+   max-width: 250px;
      box-shadow: -20px 20px 40px 0px rgba(77, 98, 104, 0.73);
 }
